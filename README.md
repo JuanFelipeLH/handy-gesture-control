@@ -35,8 +35,9 @@ Requisitos: GNOME Shell 50, Python 3.12 o superior con `venv`, una webcam compat
 3. Instala la extensión para el usuario:
 
    ```bash
-   mkdir -p ~/.local/share/gnome-shell/extensions/handy-gesture-control@local
-   cp -a . ~/.local/share/gnome-shell/extensions/handy-gesture-control@local/
+   extension_dir="$HOME/.local/share/gnome-shell/extensions/handy-gesture-control@local"
+   mkdir -p "$extension_dir"
+   install -m 644 metadata.json extension.js hands.js hand_worker.py "$extension_dir/"
    gnome-extensions enable handy-gesture-control@local
    ```
 
