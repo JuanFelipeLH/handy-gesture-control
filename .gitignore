@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.task
+*.download
+*.log
+config.json
+provenance.json
+requirements-installed.txt

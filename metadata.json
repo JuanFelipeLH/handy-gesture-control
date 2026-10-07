@@ -1,0 +1,7 @@
+{
+  "uuid": "handy-gesture-control@local",
+  "name": "Handy Gesture Control",
+  "description": "Arrastra ventanas entre pantallas con gestos de mano, procesados localmente.",
+  "shell-version": ["50"],
+  "version": 1
+}

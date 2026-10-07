@@ -1,0 +1,9 @@
+{
+  "camera": "/dev/video0",
+  "fps": 24,
+  "pinchEnter": 0.45,
+  "pinchRelease": 0.72,
+  "openThreshold": 0.85,
+  "armSeconds": 0.45,
+  "openSeconds": 0.35
+}
